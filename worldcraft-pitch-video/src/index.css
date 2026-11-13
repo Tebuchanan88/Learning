@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #111111;
+  --color-paper: #fcfafa;
+  --color-gold: #bf9453;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+}
