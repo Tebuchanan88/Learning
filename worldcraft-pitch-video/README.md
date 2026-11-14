@@ -25,11 +25,11 @@ npm run render   # writes out/worldcraft-pitch.mp4
 | Scene | Starts | What it shows |
 |---|---|---|
 | 1 Hook | 0s | Hall of doorways, with the contradiction. |
-| 2 Problem | 4.5s | The five archways, cut as one doorway onto many worlds. |
-| 3 Solution | 11s | Three steps on real product screens. |
-| 4 Proof | 21s | The promise, on the night archway. |
-| 5 Call to action | 25s | Logo, tagline and the early-access link. |
+| 2 Problem | 3.5s | The five archways on hard cuts that speed up, then a move through the doorway. |
+| 3 Solution | 9s | Three steps on real product screens, each with a camera push-in. |
+| 4 Proof | 20s | The promise, on the night archway. |
+| 5 Call to action | 24.5s | Logo, tagline and the early-access link. |
 
-Scenes crossfade by starting 15 frames early (`OVERLAP` in `src/theme.ts`).
+Most scenes change on a hard cut. Only the two moves onto the paper background crossfade (`OVERLAP` in `src/theme.ts`).
 
 The product screenshots are captures from May 2026 test data; recapture before publishing.

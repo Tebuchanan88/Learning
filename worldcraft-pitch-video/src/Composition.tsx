@@ -13,13 +13,13 @@ export const PitchComposition = () => {
         <Series.Sequence durationInFrames={SCENES.hook}>
           <Scene1Hook />
         </Series.Sequence>
-        <Series.Sequence durationInFrames={SCENES.problem} offset={-OVERLAP}>
+        <Series.Sequence durationInFrames={SCENES.problem}>
           <Scene2Problem />
         </Series.Sequence>
         <Series.Sequence durationInFrames={SCENES.solution} offset={-OVERLAP}>
           <Scene3Solution />
         </Series.Sequence>
-        <Series.Sequence durationInFrames={SCENES.proof} offset={-OVERLAP}>
+        <Series.Sequence durationInFrames={SCENES.proof}>
           <Scene4Proof />
         </Series.Sequence>
         <Series.Sequence durationInFrames={SCENES.cta} offset={-OVERLAP}>

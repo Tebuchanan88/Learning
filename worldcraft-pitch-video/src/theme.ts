@@ -2,21 +2,22 @@ export const FPS = 30;
 export const WIDTH = 1920;
 export const HEIGHT = 1080;
 
-// Each scene after the first starts OVERLAP frames early and fades in over
-// the one before it, so the cuts are crossfades handled in one place.
+// Most scenes change on a hard cut. Only the two moves onto the paper
+// background (into the product section and into the end card) crossfade,
+// by starting OVERLAP frames early.
 export const OVERLAP = 15;
 
 export const SCENES = {
-  hook: 150,
-  problem: 210,
-  solution: 315,
-  proof: 135,
-  cta: 150,
+  hook: 105,
+  problem: 180,
+  solution: 330,
+  proof: 150,
+  cta: 165,
 } as const;
 
-// 960 frames of scenes minus four 15-frame overlaps = 900 frames (30s).
+// 930 frames of scenes minus two 15-frame overlaps = 900 frames (30s).
 export const TOTAL_FRAMES =
-  Object.values(SCENES).reduce((a, b) => a + b, 0) - OVERLAP * 4;
+  Object.values(SCENES).reduce((a, b) => a + b, 0) - OVERLAP * 2;
 
 // Sampled from the Worldcraft logo file.
 export const COLORS = {

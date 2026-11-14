@@ -20,8 +20,8 @@ export const Scene1Hook = () => {
       />
       <Signature on="dark" />
       <div className="absolute left-0 top-[190px] w-full text-center font-serif text-[104px] leading-[1.12] text-white">
-        <Line delay={10}>{COPY.hook.line1}</Line>
-        <Line delay={58} className="text-gold">
+        <Line delay={6}>{COPY.hook.line1}</Line>
+        <Line delay={44} mode="pop" className="text-gold">
           {COPY.hook.line2}
         </Line>
       </div>
